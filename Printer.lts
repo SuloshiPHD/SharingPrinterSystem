@@ -1,0 +1,33 @@
+const MIN_PAPERS = 1
+const MAX_PAPERS = 3 /* maximum no. of sheets in the printer */
+const MIN_DOC_COUNT = 0
+range PAPER_RANGE = MIN_DOC_COUNT..MAX_PAPERS /* 0 to 3 */
+range DOC_NO = MIN_PAPERS..MAX_PAPERS /* Range of paper count 1 to 3 */
+
+set SetOfPrintOptions = {acquirePrinter, printDoc[DOC_NO], release,emptyPrinter}
+set SetOfInstances = {std1, std2,tech} 
+set SetRelabel = {std1.terminate,std2.terminate,tech.terminate}
+
+//Initializing printer with maximum papers
+PRINTER(PAPER_COUNT = MAX_PAPERS) = PRINTER_PROCESS [PAPER_COUNT],
+// x : available paper sheet count
+PRINTER_PROCESS[x : PAPER_RANGE] = 
+ if (x > 0)
+ then (acquirePrinter -> printDoc[DOC_NO] -> release -> PRINTER_PROCESS[x- 1])
+ else (emptyPrinter-> release -> PRINTER_PROCESS[MAX_PAPERS]).
+
+//defining student and print documents, N refers the number of documents to print
+
+STUDENT (N = 1) = PRINT [N],
+PRINT[count :MIN_DOC_COUNT..N] = 
+if (count > 0) then (acquirePrinter -> printDoc[N + 1 - count] -> release -> PRINT[count -1])
+else (terminate -> END)+ SetOfPrintOptions.
+
+//defining process of the technician who refills the printer 
+
+TECHNICIAN = (emptyPrinter -> acquireRefill -> refill -> release -> TECHNICIAN |
+				terminate -> END) + SetOfPrintOptions.
+
+//combining all instatances of above processes in parallel.
+||PRINTING_SYSTEM = (std1: STUDENT(2) || std2: STUDENT(3) || tech: TECHNICIAN || SetOfInstances ::PRINTER )
+/{terminate/SetRelabel}.
