@@ -1,0 +1,229 @@
+[SHARED_PRINTING_SYSTEM] - Initializing Student Thread Group
+[SHARED_PRINTING_SYSTEM] - Initializing Technician Thread Group
+[SHARED_PRINTING_SYSTEM] - Initializing printer
+[SHARED_PRINTING_SYSTEM] - Initializing student: DUNEESHA
+[SHARED_PRINTING_SYSTEM] - Initializing student: SUMUDU
+[SHARED_PRINTING_SYSTEM] - Initializing student: NEYTHAN
+[SHARED_PRINTING_SYSTEM] - Initializing student: RANDIMA
+[SHARED_PRINTING_SYSTEM] - Initializing Paper Technician - VIHAN
+[SHARED_PRINTING_SYSTEM] - Initializing Toner technician - HIMASHIE
+[SHARED_PRINTING_SYSTEM] - Started student: DUNEESHA
+[SHARED_PRINTING_SYSTEM] - Started student: SUMUDU
+[SHARED_PRINTING_SYSTEM] - Started student: NEYTHAN
+[SHARED_PRINTING_SYSTEM] - Started student: RANDIMA
+[SHARED_PRINTING_SYSTEM] - Started paper technician: Paper Technician - VIHAN
+[SHARED_PRINTING_SYSTEM] - Started toner technician: Toner technician - HIMASHIE
+[PAPER_TECHNICIAN] - Requested to refill paper.
+[TONER_TECHNICIAN] - Requested to replace toner
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 250, Toner Level: 500, No of Documents Printed: 0 ]
+[PRINTER] - Refilling paper will exceed the capacity. Waiting to check again 
+Student has finished the printing process. 
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 250, Toner Level: 500, No of Documents Printed: 0 ]
+[PRINTER] - Minimum toner level has not reached to refill. Waiting to check again.
+Student has finished the printing process. 
+[STUDENT] - [NEYTHAN] Requested to print the document.Document[ UserID: NEYTHAN, Name: Document_1, Pages: 17]
+[STUDENT] - [DUNEESHA] Requested to print the document.Document[ UserID: DUNEESHA, Name: Document_1, Pages: 7]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 250, Toner Level: 500, No of Documents Printed: 0 ]
+[STUDENT] - [RANDIMA] Requested to print the document.Document[ UserID: RANDIMA, Name: Document_1, Pages: 4]
+[PRINTED DOCUMENT] - Document[ UserID: NEYTHAN, Name: Document_1, Pages: 17]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 233, Toner Level: 483, No of Documents Printed: 1 ]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 233, Toner Level: 483, No of Documents Printed: 1 ]
+[PRINTED DOCUMENT] - Document[ UserID: DUNEESHA, Name: Document_1, Pages: 7]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 226, Toner Level: 476, No of Documents Printed: 2 ]
+[STUDENT] - Printer Status. [ PrinterID: HP-OFFICEJET5230, Paper Level: 226, Toner Level: 476, No of Documents Printed: 2 ]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 226, Toner Level: 476, No of Documents Printed: 2 ]
+[PRINTED DOCUMENT] - Document[ UserID: RANDIMA, Name: Document_1, Pages: 4]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 222, Toner Level: 472, No of Documents Printed: 3 ]
+[STUDENT] - Printer Status. [ PrinterID: HP-OFFICEJET5230, Paper Level: 222, Toner Level: 472, No of Documents Printed: 3 ]
+[STUDENT] - [SUMUDU] Requested to print the document.Document[ UserID: SUMUDU, Name: Document_1, Pages: 18]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 222, Toner Level: 472, No of Documents Printed: 3 ]
+[STUDENT] - Printer Status. [ PrinterID: HP-OFFICEJET5230, Paper Level: 233, Toner Level: 483, No of Documents Printed: 1 ]
+[PRINTER] - Refilling paper will exceed the capacity. Waiting to check again 
+Student has finished the printing process. 
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 222, Toner Level: 472, No of Documents Printed: 3 ]
+[PRINTER] - Minimum toner level has not reached to refill. Waiting to check again.
+Student has finished the printing process. 
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 222, Toner Level: 472, No of Documents Printed: 3 ]
+[PRINTED DOCUMENT] - Document[ UserID: SUMUDU, Name: Document_1, Pages: 18]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 204, Toner Level: 454, No of Documents Printed: 4 ]
+[STUDENT] - Printer Status. [ PrinterID: HP-OFFICEJET5230, Paper Level: 204, Toner Level: 454, No of Documents Printed: 4 ]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 204, Toner Level: 454, No of Documents Printed: 4 ]
+[PRINTER] - Refilling paper will exceed the capacity. Waiting to check again 
+Student has finished the printing process. 
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 204, Toner Level: 454, No of Documents Printed: 4 ]
+[PRINTER] - Minimum toner level has not reached to refill. Waiting to check again.
+Student has finished the printing process. 
+[STUDENT] - [DUNEESHA] Requested to print the document.Document[ UserID: DUNEESHA, Name: Document_2, Pages: 11]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 204, Toner Level: 454, No of Documents Printed: 4 ]
+[PRINTED DOCUMENT] - Document[ UserID: DUNEESHA, Name: Document_2, Pages: 11]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 193, Toner Level: 443, No of Documents Printed: 5 ]
+[STUDENT] - Printer Status. [ PrinterID: HP-OFFICEJET5230, Paper Level: 193, Toner Level: 443, No of Documents Printed: 5 ]
+[PRINTER] - Paper has refilled Successfully, [ New Paper Level ] : 243
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 243, Toner Level: 443, No of Documents Printed: 5 ]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 243, Toner Level: 443, No of Documents Printed: 5 ]
+[PRINTER] - Minimum toner level has not reached to refill. Waiting to check again.
+Student has finished the printing process. 
+[PAPER_TECHNICIAN] - Printer Status :  [ PrinterID: HP-OFFICEJET5230, Paper Level: 243, Toner Level: 443, No of Documents Printed: 5 ]
+[STUDENT] - [SUMUDU] Requested to print the document.Document[ UserID: SUMUDU, Name: Document_2, Pages: 1]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 243, Toner Level: 443, No of Documents Printed: 5 ]
+[PRINTED DOCUMENT] - Document[ UserID: SUMUDU, Name: Document_2, Pages: 1]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 242, Toner Level: 442, No of Documents Printed: 6 ]
+[STUDENT] - Printer Status. [ PrinterID: HP-OFFICEJET5230, Paper Level: 242, Toner Level: 442, No of Documents Printed: 6 ]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 242, Toner Level: 442, No of Documents Printed: 6 ]
+[PRINTER] - Minimum toner level has not reached to refill. Waiting to check again.
+Student has finished the printing process. 
+[STUDENT] - [RANDIMA] Requested to print the document.Document[ UserID: RANDIMA, Name: Document_2, Pages: 1]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 242, Toner Level: 442, No of Documents Printed: 6 ]
+[PRINTED DOCUMENT] - Document[ UserID: RANDIMA, Name: Document_2, Pages: 1]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 241, Toner Level: 441, No of Documents Printed: 7 ]
+[STUDENT] - Printer Status. [ PrinterID: HP-OFFICEJET5230, Paper Level: 241, Toner Level: 441, No of Documents Printed: 7 ]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 241, Toner Level: 441, No of Documents Printed: 7 ]
+[PRINTER] - Minimum toner level has not reached to refill. Waiting to check again.
+Student has finished the printing process. 
+[STUDENT] - [NEYTHAN] Requested to print the document.Document[ UserID: NEYTHAN, Name: Document_2, Pages: 9]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 241, Toner Level: 441, No of Documents Printed: 7 ]
+[PRINTED DOCUMENT] - Document[ UserID: NEYTHAN, Name: Document_2, Pages: 9]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 232, Toner Level: 432, No of Documents Printed: 8 ]
+[STUDENT] - Printer Status. [ PrinterID: HP-OFFICEJET5230, Paper Level: 232, Toner Level: 432, No of Documents Printed: 8 ]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 232, Toner Level: 432, No of Documents Printed: 8 ]
+[PRINTER] - Minimum toner level has not reached to refill. Waiting to check again.
+Student has finished the printing process. 
+[PAPER_TECHNICIAN] - Requested to refill paper.
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 232, Toner Level: 432, No of Documents Printed: 8 ]
+[PRINTER] - Refilling paper will exceed the capacity. Waiting to check again 
+Student has finished the printing process. 
+[STUDENT] - [SUMUDU] Requested to print the document.Document[ UserID: SUMUDU, Name: Document_3, Pages: 13]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 232, Toner Level: 432, No of Documents Printed: 8 ]
+[PRINTED DOCUMENT] - Document[ UserID: SUMUDU, Name: Document_3, Pages: 13]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 219, Toner Level: 419, No of Documents Printed: 9 ]
+[STUDENT] - Printer Status. [ PrinterID: HP-OFFICEJET5230, Paper Level: 219, Toner Level: 419, No of Documents Printed: 9 ]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 219, Toner Level: 419, No of Documents Printed: 9 ]
+[PRINTER] - Minimum toner level has not reached to refill. Waiting to check again.
+Student has finished the printing process. 
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 219, Toner Level: 419, No of Documents Printed: 9 ]
+[PRINTER] - Refilling paper will exceed the capacity. Waiting to check again 
+Student has finished the printing process. 
+[STUDENT] - [DUNEESHA] Requested to print the document.Document[ UserID: DUNEESHA, Name: Document_3, Pages: 4]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 219, Toner Level: 419, No of Documents Printed: 9 ]
+[PRINTED DOCUMENT] - Document[ UserID: DUNEESHA, Name: Document_3, Pages: 4]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 215, Toner Level: 415, No of Documents Printed: 10 ]
+[STUDENT] - Printer Status. [ PrinterID: HP-OFFICEJET5230, Paper Level: 215, Toner Level: 415, No of Documents Printed: 10 ]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 215, Toner Level: 415, No of Documents Printed: 10 ]
+[PRINTER] - Minimum toner level has not reached to refill. Waiting to check again.
+Student has finished the printing process. 
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 215, Toner Level: 415, No of Documents Printed: 10 ]
+[PRINTER] - Refilling paper will exceed the capacity. Waiting to check again 
+Student has finished the printing process. 
+[STUDENT] - [RANDIMA] Requested to print the document.Document[ UserID: RANDIMA, Name: Document_3, Pages: 3]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 215, Toner Level: 415, No of Documents Printed: 10 ]
+[PRINTED DOCUMENT] - Document[ UserID: RANDIMA, Name: Document_3, Pages: 3]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 212, Toner Level: 412, No of Documents Printed: 11 ]
+[STUDENT] - Printer Status. [ PrinterID: HP-OFFICEJET5230, Paper Level: 212, Toner Level: 412, No of Documents Printed: 11 ]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 212, Toner Level: 412, No of Documents Printed: 11 ]
+[PRINTER] - Minimum toner level has not reached to refill. Waiting to check again.
+Student has finished the printing process. 
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 212, Toner Level: 412, No of Documents Printed: 11 ]
+[PRINTER] - Refilling paper will exceed the capacity. Waiting to check again 
+Student has finished the printing process. 
+[STUDENT] - [NEYTHAN] Requested to print the document.Document[ UserID: NEYTHAN, Name: Document_3, Pages: 19]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 212, Toner Level: 412, No of Documents Printed: 11 ]
+[PRINTED DOCUMENT] - Document[ UserID: NEYTHAN, Name: Document_3, Pages: 19]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 193, Toner Level: 393, No of Documents Printed: 12 ]
+[STUDENT] - Printer Status. [ PrinterID: HP-OFFICEJET5230, Paper Level: 193, Toner Level: 393, No of Documents Printed: 12 ]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 193, Toner Level: 393, No of Documents Printed: 12 ]
+[PRINTER] - Minimum toner level has not reached to refill. Waiting to check again.
+Student has finished the printing process. 
+[PRINTER] - Paper has refilled Successfully, [ New Paper Level ] : 243
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 243, Toner Level: 393, No of Documents Printed: 12 ]
+[PAPER_TECHNICIAN] - Printer Status :  [ PrinterID: HP-OFFICEJET5230, Paper Level: 243, Toner Level: 393, No of Documents Printed: 12 ]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 243, Toner Level: 393, No of Documents Printed: 12 ]
+[PRINTER] - Minimum toner level has not reached to refill. Waiting to check again.
+Student has finished the printing process. 
+[STUDENT] - [SUMUDU] Requested to print the document.Document[ UserID: SUMUDU, Name: Document_4, Pages: 18]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 243, Toner Level: 393, No of Documents Printed: 12 ]
+[PRINTED DOCUMENT] - Document[ UserID: SUMUDU, Name: Document_4, Pages: 18]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 225, Toner Level: 375, No of Documents Printed: 13 ]
+[STUDENT] - Printer Status. [ PrinterID: HP-OFFICEJET5230, Paper Level: 225, Toner Level: 375, No of Documents Printed: 13 ]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 225, Toner Level: 375, No of Documents Printed: 13 ]
+[PRINTER] - Minimum toner level has not reached to refill. Waiting to check again.
+Student has finished the printing process. 
+[STUDENT] - [DUNEESHA] Requested to print the document.Document[ UserID: DUNEESHA, Name: Document_4, Pages: 16]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 225, Toner Level: 375, No of Documents Printed: 13 ]
+[PRINTED DOCUMENT] - Document[ UserID: DUNEESHA, Name: Document_4, Pages: 16]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 209, Toner Level: 359, No of Documents Printed: 14 ]
+[STUDENT] - Printer Status. [ PrinterID: HP-OFFICEJET5230, Paper Level: 209, Toner Level: 359, No of Documents Printed: 14 ]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 209, Toner Level: 359, No of Documents Printed: 14 ]
+[PRINTER] - Minimum toner level has not reached to refill. Waiting to check again.
+Student has finished the printing process. 
+[STUDENT] - [NEYTHAN] Requested to print the document.Document[ UserID: NEYTHAN, Name: Document_4, Pages: 16]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 209, Toner Level: 359, No of Documents Printed: 14 ]
+[PRINTED DOCUMENT] - Document[ UserID: NEYTHAN, Name: Document_4, Pages: 16]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 193, Toner Level: 343, No of Documents Printed: 15 ]
+[STUDENT] - Printer Status. [ PrinterID: HP-OFFICEJET5230, Paper Level: 193, Toner Level: 343, No of Documents Printed: 15 ]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 193, Toner Level: 343, No of Documents Printed: 15 ]
+[PRINTER] - Minimum toner level has not reached to refill. Waiting to check again.
+Student has finished the printing process. 
+[STUDENT] - [RANDIMA] Requested to print the document.Document[ UserID: RANDIMA, Name: Document_4, Pages: 12]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 193, Toner Level: 343, No of Documents Printed: 15 ]
+[PRINTED DOCUMENT] - Document[ UserID: RANDIMA, Name: Document_4, Pages: 12]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 181, Toner Level: 331, No of Documents Printed: 16 ]
+[STUDENT] - Printer Status. [ PrinterID: HP-OFFICEJET5230, Paper Level: 181, Toner Level: 331, No of Documents Printed: 16 ]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 181, Toner Level: 331, No of Documents Printed: 16 ]
+[PRINTER] - Minimum toner level has not reached to refill. Waiting to check again.
+Student has finished the printing process. 
+[PAPER_TECHNICIAN] - Requested to refill paper.
+[PRINTER] - Paper has refilled Successfully, [ New Paper Level ] : 231
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 231, Toner Level: 331, No of Documents Printed: 16 ]
+[PAPER_TECHNICIAN] - Printer Status :  [ PrinterID: HP-OFFICEJET5230, Paper Level: 231, Toner Level: 331, No of Documents Printed: 16 ]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 231, Toner Level: 331, No of Documents Printed: 16 ]
+[PRINTER] - Minimum toner level has not reached to refill. Waiting to check again.
+Student has finished the printing process. 
+[STUDENT] - [SUMUDU] Requested to print the document.Document[ UserID: SUMUDU, Name: Document_5, Pages: 16]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 231, Toner Level: 331, No of Documents Printed: 16 ]
+[PRINTED DOCUMENT] - Document[ UserID: SUMUDU, Name: Document_5, Pages: 16]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 215, Toner Level: 315, No of Documents Printed: 17 ]
+[STUDENT] - Printer Status. [ PrinterID: HP-OFFICEJET5230, Paper Level: 215, Toner Level: 315, No of Documents Printed: 17 ]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 215, Toner Level: 315, No of Documents Printed: 17 ]
+[PRINTER] - Minimum toner level has not reached to refill. Waiting to check again.
+Student has finished the printing process. 
+[STUDENT] - [NEYTHAN] Requested to print the document.Document[ UserID: NEYTHAN, Name: Document_5, Pages: 19]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 215, Toner Level: 315, No of Documents Printed: 17 ]
+[PRINTED DOCUMENT] - Document[ UserID: NEYTHAN, Name: Document_5, Pages: 19]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 196, Toner Level: 296, No of Documents Printed: 18 ]
+[STUDENT] - Printer Status. [ PrinterID: HP-OFFICEJET5230, Paper Level: 196, Toner Level: 296, No of Documents Printed: 18 ]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 196, Toner Level: 296, No of Documents Printed: 18 ]
+[PRINTER] - Minimum toner level has not reached to refill. Waiting to check again.
+Student has finished the printing process. 
+[STUDENT] - [DUNEESHA] Requested to print the document.Document[ UserID: DUNEESHA, Name: Document_5, Pages: 7]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 196, Toner Level: 296, No of Documents Printed: 18 ]
+[PRINTED DOCUMENT] - Document[ UserID: DUNEESHA, Name: Document_5, Pages: 7]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 189, Toner Level: 289, No of Documents Printed: 19 ]
+[STUDENT] - Printer Status. [ PrinterID: HP-OFFICEJET5230, Paper Level: 189, Toner Level: 289, No of Documents Printed: 19 ]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 189, Toner Level: 289, No of Documents Printed: 19 ]
+[PRINTER] - Minimum toner level has not reached to refill. Waiting to check again.
+Student has finished the printing process. 
+[STUDENT] - [RANDIMA] Requested to print the document.Document[ UserID: RANDIMA, Name: Document_5, Pages: 4]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 189, Toner Level: 289, No of Documents Printed: 19 ]
+[PRINTED DOCUMENT] - Document[ UserID: RANDIMA, Name: Document_5, Pages: 4]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 185, Toner Level: 285, No of Documents Printed: 20 ]
+[STUDENT] - Printer Status. [ PrinterID: HP-OFFICEJET5230, Paper Level: 185, Toner Level: 285, No of Documents Printed: 20 ]
+[ PrinterID: HP-OFFICEJET5230, Paper Level: 185, Toner Level: 285, No of Documents Printed: 20 ]
+[PRINTER] - Minimum toner level has not reached to refill. Waiting to check again.
+Student has finished the printing process. 
+[SHARED_PRINTING_SYSTEM] -  DUNEESHA completed execution. 
+[SHARED_PRINTING_SYSTEM] -  SUMUDU completed execution. 
+[SHARED_PRINTING_SYSTEM] -  NEYTHAN completed execution. 
+[SHARED_PRINTING_SYSTEM] -  RANDIMA completed execution. 
+[SHARED_PRINTING_SYSTEM] -  Paper Technician - VIHAN completed execution. 
+[PRINTER] - Usage of printer is over. No need to replace toner cartridge. 
+[TONER_TECHNICIAN] - Printer Status. [ PrinterID: HP-OFFICEJET5230, Paper Level: 185, Toner Level: 285, No of Documents Printed: 20 ]
+[TONER_TECHNICIAN] - Requested to replace toner
+[PRINTER] - Usage of printer is over. No need to replace toner cartridge. 
+[TONER_TECHNICIAN] - Printer Status. [ PrinterID: HP-OFFICEJET5230, Paper Level: 185, Toner Level: 285, No of Documents Printed: 20 ]
+[TONER_TECHNICIAN] - Requested to replace toner
+[PRINTER] - Usage of printer is over. No need to replace toner cartridge. 
+[TONER_TECHNICIAN] - Printer Status. [ PrinterID: HP-OFFICEJET5230, Paper Level: 185, Toner Level: 285, No of Documents Printed: 20 ]
+[SHARED_PRINTING_SYSTEM] -  Toner technician - HIMASHIE completed execution. 
+[SHARED_PRINTING_SYSTEM] -  Tasks completed successfully..[ PrinterID: HP-OFFICEJET5230, Paper Level: 185, Toner Level: 285, No of Documents Printed: 20 ]
+
+Process finished with exit code 0
